@@ -20,7 +20,7 @@ function Home() {
             <input className="in" type='text' />
           </div>
         </div>
-        <Link to='/Question'>
+        <Link to='/Question1'>
           <button className="Button" />
         </Link>
       </div>

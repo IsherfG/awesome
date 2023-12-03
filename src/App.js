@@ -1,19 +1,21 @@
 import { Route,Routes } from 'react-router-dom';
 
 import Home from './components/routes/Home.js'
-import Question from './components/routes/Question.js'
+import Question1 from './components/routes/Question1.js'
 import End from './components/routes/End.js'
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="index_container">
+      <div className="App">
       <Routes>
         <Route path='/' element= {<Home/>}></Route>
-        <Route path='Question' element= {<Question/>}></Route>
+        <Route path='Question1' element= {<Question1/>}></Route>
         <Route path='End' element= {<End/>}></Route>
       </Routes>
+    </div>
     </div>
   );
 }

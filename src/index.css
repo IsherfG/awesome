@@ -1,3 +1,12 @@
+
+.index_container{
+  max-width: 360px;
+  margin: 0 auto;
+ /*background-color: #2e6d28;*/
+  height: 280vh;
+  min-height: min-content;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#309d47;
 }
 
 code {
