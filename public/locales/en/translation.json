@@ -1,7 +1,7 @@
 {
     "title": "Welcome to react using react-i18next",
-    "description": {
-      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-      "part2": "Switch language between english and german using buttons above."
+    "question": {
+      "1": "1. I feel a deep sense of wonder and astonishment when I watch skilled stage magicians perform.",
+      "2": "          2. The complexity and mystery of stage magic performances often leave me in awe."
     }
   }

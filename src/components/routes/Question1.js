@@ -37,7 +37,7 @@ function Question() {
       </div>
       <div>
         <text className="wa">
-        {t("description.part2")}
+        {t("question.1")}
         </text>
         <h1>{data1}</h1>
         <input
@@ -52,8 +52,7 @@ function Question() {
       </div>
       <div>
         <text>
-          2. The complexity and mystery of stage magic performances often leave
-          me in awe.
+        {t("question.2")}
         </text>
         <h1>{data2}</h1>
         <input
