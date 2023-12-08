@@ -1,7 +1,24 @@
 {
-    "title": "Welcome to react using react-i18next",
+    "title": {
+      "1" : "Awe & Wonderment"
+    },
     "question": {
       "1": "1. I feel a deep sense of wonder and astonishment when I watch skilled stage magicians perform.",
-      "2": "          2. The complexity and mystery of stage magic performances often leave me in awe."
+      "2": "2. The complexity and mystery of stage magic performances often leave me in awe.",
+      "3": "3. Witnessing certain stage magic tricks gives me a sense of amazement and reverence.",
+      "4": "4. I experience a profound sense of wonderment when I'm deceived by a well-executed magic trick.",
+      "5": "5. I am often struck by the sheer brilliance and artistry behind stage magic illusions.",
+      "6": "6. Witnessing stage magic performances leaves me feeling captivated and entranced.",
+      "7": "7. The intricacy and precision of stage magic illusions often leave me in a state of awe.",
+      "8": "8. I am amazed by the ability of stage magicians to manipulate my perceptions and senses.",
+      "9": "9. Certain stage magic tricks evoke a sense of astonishment that is hard to put into words.",
+      "10": "10. I find myself marveling at the ingenuity and creativity behind well-executed magic performances.",
+      "11": "11. The surprises and illusions presented in stage magic performances often leave me speechless.",
+      "12": "12. I feel a sense of enchantment and fascination when I'm engaged with a stage magic trick.",
+      "13": "13. Witnessing stage magic performances can be a source of profound and uplifting experiences.",
+      "14": "14. The mastery of stage magicians in creating illusions fills me with wonder and admiration.",
+      "15": "15. I find myself entranced by the spectacle and spectacle of well-performed stage magic."
     }
   }
+  
+

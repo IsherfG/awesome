@@ -1,7 +1,22 @@
 {
-    "title": "Willkommen zu react und react-i18next",
+  "title": {
+    "1" : "Respect en Verwondering"
+  },
     "question": {
       "1": "1. Ik krijg een diep gevoel van verwondering en verbazing als ik bekwame toneelgoochelaars zie optreden.",
-      "2": "2. De complexiteit en het mysterieuze van magische toneelvoorstellingen, laten mij vaak met respect achter."
+      "2": "2. De complexiteit en het mysterieuze van magische toneelvoorstellingen, laten mij vaak met respect achter.",
+      "3": "3. Als ik getuige ben van bepaalde goocheltrucs op het toneel, krijg ik een gevoel van verbazing en respect.",
+      "4": "4. Ik ervaar een gevoel van verwondering als ik word misleid door een goed uitgevoerde goocheltruc.",
+      "5": "5. Ik word vaak getroffen door de genialiteit en kunstzinnigheid achter de uitgevoerde illusies op het toneel.",
+      "6": "6. Als ik getuige ben van goochelvoorstellingen op het toneel, word ik gefascineerd en in verwondering gebracht.",
+      "7": "7. De complexiteit en precisie van magische illusies op het toneel laten mij vaak met respect en verbazing achter.",
+      "8": "8. Ik sta versteld van het vermogen van toneelgoochelaars om mijn waarnemingen en zintuigen te beïnvloeden.",
+      "9": "9. Bepaalde toneelgoocheltrucs roepen een gevoel van verbazing op dat moeilijk onder woorden te brengen is.",
+      "10": "10. Ik merk dat ik verbaasd ben over de vindingrijkheid en creativiteit achter goed uitgevoerde goocheltrucs.",
+      "11": "11. De verrassingen en illusies die worden gepresenteerd in magische toneeloptredens laten me vaak sprakeloos achter.",
+      "12": "12. Ik voel een gevoel van betovering en fascinatie als ik met een goocheltruc op een podium bezig ben.",
+      "13": "13. Het bijwonen van magische toneeloptredens kan een bron zijn van intense en opbeurende ervaringen.",
+      "14": "14. De beheersing van toneelgoochelaars in het creëren van illusies vervult mij met verwondering en bewondering.",
+      "15": "15. Ik merk dat ik erg onder de indruk ben door het spektakel en het schouwspel van goed uitgevoerde toneelmagie."
     }
   }

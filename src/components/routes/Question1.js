@@ -33,7 +33,7 @@ function Question() {
   return (
     <div>
       <div>
-        <h1 className="TitleText">Awe & Wonderment</h1>
+        <h1 className="TitleText">{t("title.1")}</h1>
       </div>
       <div>
         <text className="wa">
@@ -67,8 +67,7 @@ function Question() {
       </div>
       <div>
         <text>
-          3. Witnessing certain stage magic tricks gives me a sense of amazement
-          and reverence.
+        {t("question.3")}
         </text>
         <h1>{data3}</h1>
         <input
@@ -83,8 +82,7 @@ function Question() {
       </div>
       <div>
         <text>
-          4. I experience a profound sense of wonderment when I'm deceived by a
-          well-executed magic trick.
+        {t("question.4")}
         </text>
         <h1>{data4}</h1>
         <input
@@ -99,8 +97,7 @@ function Question() {
       </div>
       <div>
         <text>
-          5. I am often struck by the sheer brilliance and artistry behind stage
-          magic illusions.
+        {t("question.5")}
         </text>
         <h1>{data5}</h1>
         <input
@@ -115,8 +112,7 @@ function Question() {
       </div>
       <div>
         <text>
-          6. Witnessing stage magic performances leaves me feeling captivated
-          and entranced.
+        {t("question.6")}
         </text>
         <h1>{data6}</h1>
         <input
@@ -131,8 +127,7 @@ function Question() {
       </div>
       <div>
         <text>
-          7. The intricacy and precision of stage magic illusions often leave me
-          in a state of awe.
+        {t("question.7")}
         </text>
         <h1>{data7}</h1>
         <input
@@ -147,8 +142,7 @@ function Question() {
       </div>
       <div>
         <text>
-          8. I am amazed by the ability of stage magicians to manipulate my
-          perceptions and senses.
+        {t("question.8")}
         </text>
         <h1>{data8}</h1>
         <input
@@ -163,8 +157,7 @@ function Question() {
       </div>
       <div>
         <text>
-          9. Certain stage magic tricks evoke a sense of astonishment that is
-          hard to put into words.
+        {t("question.9")}
         </text>
         <h1>{data9}</h1>
         <input
@@ -179,8 +172,7 @@ function Question() {
       </div>
       <div>
         <text>
-          10. I find myself marveling at the ingenuity and creativity behind
-          well-executed magic performances.
+        {t("question.10")}
         </text>
         <h1>{data10}</h1>
         <input
@@ -195,8 +187,7 @@ function Question() {
       </div>
       <div>
         <text>
-          11. The surprises and illusions presented in stage magic performances
-          often leave me speechless.
+        {t("question.11")}
         </text>
         <h1>{data11}</h1>
         <input
@@ -211,8 +202,7 @@ function Question() {
       </div>
       <div>
         <text>
-          12. I feel a sense of enchantment and fascination when I'm engaged
-          with a stage magic trick.
+        {t("question.12")}
         </text>
         <h1>{data12}</h1>
         <input
@@ -227,8 +217,7 @@ function Question() {
       </div>
       <div>
         <text>
-          13. Witnessing stage magic performances can be a source of profound
-          and uplifting experiences.
+        {t("question.13")}
         </text>
         <h1>{data13}</h1>
         <input
@@ -243,8 +232,7 @@ function Question() {
       </div>
       <div>
         <text>
-          14. The mastery of stage magicians in creating illusions fills me with
-          wonder and admiration.
+        {t("question.14")}
         </text>
         <h1>{data14}</h1>
         <input
@@ -259,8 +247,7 @@ function Question() {
       </div>
       <div>
         <text>
-          15. I find myself entranced by the spectacle and spectacle of
-          well-performed stage magic.
+        {t("question.15")}
         </text>
         <h1>{data15}</h1>
         <input
