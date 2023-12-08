@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 import "../styles/global.css";
 
 
 function Question() {
+
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
  const [data1, setData1] = useState(0); 
  const [data2, setData2] = useState(0); 
  const [data3, setData3] = useState(0); 
@@ -28,8 +37,7 @@ function Question() {
       </div>
       <div>
         <text className="wa">
-          1.I feel a deep sense of wonder and astonishment when I watch skilled
-          stage magicians perform.
+        {t("description.part2")}
         </text>
         <h1>{data1}</h1>
         <input
