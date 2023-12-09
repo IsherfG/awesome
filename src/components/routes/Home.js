@@ -13,30 +13,30 @@ function Home() {
 
   return (
     <div className="Container">
-      {" "}
       <div className="Inputs">
-        {" "}
         <div className="Input">
-          {" "}
-          <input className="in" type="text" />{" "}
-        </div>{" "}
+          <label>{t("Name")}</label>
+          <input className="in" type="text" placeholder={t("Enter your name")} />
+        </div>
         <div className="Input">
-          {" "}
-          <input className="in" type="text" />{" "}
-        </div>{" "}
+          <label>{t("Email")}</label>
+          <input className="in" type="email" placeholder={t("Enter your email")} />
+        </div>
         <div className="Input">
-          {" "}
-          <input className="in" type="text" />{" "}
-        </div>{" "}
+          <label>{t("Gender")}</label>
+          <select className="in">
+            <option value="male">{t("Male")}</option>
+            <option value="female">{t("Female")}</option>
+          </select>
+        </div>
         <div className="Input">
-          {" "}
-          <input className="in" type="text" />{" "}
-        </div>{" "}
-      </div>{" "}
+          <label>{t("Phone Number")}</label>
+          <input className="in" type="tel" placeholder={t("Enter your phone number")} />
+        </div>
+      </div>
       <Link to="/Question1">
-        {" "}
-        <button className="Button" />{" "}
-      </Link>{" "}
+        <button className="Button">{t("Next")}</button>
+      </Link>
     </div>
   );
 }
