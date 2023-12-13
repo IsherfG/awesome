@@ -33,11 +33,11 @@ function Question() {
   return (
     <div>
       <div>
-        <h1 className="TitleText">{t("title.1")}</h1>
+        <h1 className="TitleText">{t("title.6")}</h1>
       </div>
       <div>
         <text className="wa">
-        {t("question.1")}
+        {t("question.77")}
         </text>
         <h1>{data1}</h1>
         <input
@@ -52,7 +52,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.2")}
+        {t("question.78")}
         </text>
         <h1>{data2}</h1>
         <input
@@ -67,7 +67,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.3")}
+        {t("question.79")}
         </text>
         <h1>{data3}</h1>
         <input
@@ -82,7 +82,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.4")}
+        {t("question.80")}
         </text>
         <h1>{data4}</h1>
         <input
@@ -97,7 +97,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.5")}
+        {t("question.81")}
         </text>
         <h1>{data5}</h1>
         <input
@@ -112,7 +112,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.6")}
+        {t("question.82")}
         </text>
         <h1>{data6}</h1>
         <input
@@ -127,7 +127,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.7")}
+        {t("question.83")}
         </text>
         <h1>{data7}</h1>
         <input
@@ -142,7 +142,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.8")}
+        {t("question.84")}
         </text>
         <h1>{data8}</h1>
         <input
@@ -157,7 +157,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.9")}
+        {t("question.85")}
         </text>
         <h1>{data9}</h1>
         <input
@@ -172,7 +172,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.10")}
+        {t("question.86")}
         </text>
         <h1>{data10}</h1>
         <input
@@ -187,7 +187,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.11")}
+        {t("question.87")}
         </text>
         <h1>{data11}</h1>
         <input
@@ -202,7 +202,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.12")}
+        {t("question.88")}
         </text>
         <h1>{data12}</h1>
         <input
@@ -217,7 +217,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.13")}
+        {t("question.89")}
         </text>
         <h1>{data13}</h1>
         <input
@@ -232,7 +232,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.14")}
+        {t("question.90")}
         </text>
         <h1>{data14}</h1>
         <input
@@ -247,7 +247,7 @@ function Question() {
       </div>
       <div>
         <text>
-        {t("question.15")}
+        {t("question.91")}
         </text>
         <h1>{data15}</h1>
         <input
@@ -261,7 +261,7 @@ function Question() {
         />
       </div>
       <div>
-      <Link to='/Question2'>
+      <Link to='/End'>
           <button className="Button" />
         </Link>
       </div>
