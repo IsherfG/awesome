@@ -31,7 +31,7 @@ function Question() {
  
 
   return (
-    <div>
+    <div className="index_containerQ">
       <div>
         <h1 className="TitleText">{t("title.1")}</h1>
       </div>
@@ -261,8 +261,10 @@ function Question() {
         />
       </div>
       <div>
-      <Link to='/Question2'>
-          <button className="Button" />
+      <Link to='/Question2' className="ButtonLink">
+        <button className="Button">
+          <p1 className = "NEXT">Next</p1>
+          </button>
         </Link>
       </div>
     </div>

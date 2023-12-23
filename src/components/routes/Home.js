@@ -12,15 +12,12 @@ function Home() {
   };
 
   return (
+    <div className="index_containerHOME">
     <div className="Container">
       <div className="Inputs">
         <div className="Input">
           <label>{t("Name")}</label>
           <input className="in" type="text" placeholder={t("Enter your name")} />
-        </div>
-        <div className="Input">
-          <label>{t("Email")}</label>
-          <input className="in" type="email" placeholder={t("Enter your email")} />
         </div>
         <div className="Input">
           <label>{t("Gender")}</label>
@@ -29,14 +26,11 @@ function Home() {
             <option value="female">{t("Female")}</option>
           </select>
         </div>
-        <div className="Input">
-          <label>{t("Phone Number")}</label>
-          <input className="in" type="tel" placeholder={t("Enter your phone number")} />
-        </div>
       </div>
       <Link to="/Question1">
         <button className="Button">{t("Next")}</button>
       </Link>
+    </div>
     </div>
   );
 }

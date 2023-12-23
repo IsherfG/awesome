@@ -24,15 +24,85 @@
 .slide{
     width: 70%;
 }
-
-.Flag {
-    flex: 2;
-    border: 2px;
-}
-
 .container {
     display: flex;
+    align-items: center;
+}
+.containerEN {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
+.Flag {
+    margin-right: 10px;
+    margin-left: 10px; /* Adjust as needed for spacing */
+}
+
+.Flag1 img {
+    width: 100px; /* Adjust width as needed */
+    height: 70px; /* Maintain aspect ratio */
+    cursor: pointer;
+    border: 1px ; /* Add border styling if needed */
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.index_container{
+    max-width: 360px;
+    margin: 0 auto;
+   /*background-color: #2e6d28;*/
+    height: 100vh;
+    min-height: min-content;
+  }
+
+  .index_containerQ{
+    max-width: 360px;
+    margin: 0 auto;
+   /*background-color: #2e6d28;*/
+    height: 280vh;
+    min-height: min-content;
+  }
+
+  .ButtonLink {
+    text-decoration: none; /* Remove underline for the link */
+  }
+  
+  .Button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:grey; /* Green */
+    border: none;
+    color: white;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .NEXT{
+    text-align: center;
+  }
+  /* global.css */
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .ThankYouMessage {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ThankYouMessage h2 {
+    font-size: 24px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  /* You can customize the styling further based on your design requirements */
+  
 
 

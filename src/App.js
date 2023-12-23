@@ -16,11 +16,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="index_container">
+    <div >
       <div className="App">
       <Routes>
         <Route path='/' element= {<Form/>}></Route>
-        <Route path='Home' element= {<Home/>}></Route>
+        <Route path='Home' element= {<Question1/>}></Route>
         <Route path='Question1' element= {<Question1/>}></Route>
         <Route path='Question2' element= {<Question2/>}></Route>
         <Route path='Question3' element= {<Question3/>}></Route>

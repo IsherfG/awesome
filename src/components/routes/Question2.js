@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import "../styles/global.css";
@@ -28,10 +28,15 @@ function Question() {
  const [data13, setData13] = useState(0); 
  const [data14, setData14] = useState(0); 
  const [data15, setData15] = useState(0); 
+
+ useEffect(() => {
+  // Scroll to the top when the component mounts
+  window.scrollTo(0, 0);
+}, []);
  
 
   return (
-    <div>
+    <div className="index_containerQ">
       <div>
         <h1 className="TitleText">{t("title.2")}</h1>
       </div>
@@ -261,8 +266,10 @@ function Question() {
         />
       </div>
       <div>
-      <Link to='/Question3'>
-          <button className="Button" />
+      <Link to='/Question3' className="ButtonLink">
+        <button className="Button">
+          <p1 className = "NEXT">Next</p1>
+          </button>
         </Link>
       </div>
     </div>

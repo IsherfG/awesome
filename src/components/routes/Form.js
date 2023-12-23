@@ -4,6 +4,7 @@ import Global from "../styles/global.css";
 import i18n from "../localization/i18n";
 import { useTranslation } from "react-i18next";
 import Flag from "react-flagkit";
+import ENG from '../assets/Eng.png';
 
 function Home() {
   const { t } = useTranslation();
@@ -13,17 +14,17 @@ function Home() {
   };
 
   return (
-    <div>
-      <div className="container">
-        <div className="Flag">
+    <div className="index_container">
+      <div className="containerEN">
+        <div className="Flag1">
           {" "}
           <Link to="/Home">
-            <Flag
-              country="US"
-              role="button"
-              size={100}
-              onClick={() => changeLanguage("en")}
-            />
+          <img
+          src={ENG}
+          alt="English Flag"
+          style={{ width: 100, cursor: "pointer" }}
+          onClick={() => changeLanguage("en")}
+        />
           </Link>
         </div>
         <div className="Flag">
@@ -80,6 +81,146 @@ function Home() {
               role="button"
               size={100}
               onClick={() => changeLanguage("da")}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="PT"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("pt")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="FI"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("fi")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="PL"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("pl")}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="AE"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ar")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="LV"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("lv")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="KR"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ko")}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="UA"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ua")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="JP"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("jp")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="NO"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("no")}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="CN"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("zh_CN")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="TW"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("zh_tw")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="MT"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("mt")}
             />
           </Link>
         </div>
