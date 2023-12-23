@@ -265,7 +265,7 @@ function Question() {
         />
       </div>
       <div>
-      <Link to='/Question7' className="ButtonLink">
+      <Link to='/End' className="ButtonLink">
         <button className="Button">
           <p1 className = "NEXT">Next</p1>
           </button>
