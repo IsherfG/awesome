@@ -125,7 +125,7 @@ function Home() {
           {" "}
           <Link to="/Home">
             <Flag
-              country="AE"
+              country="SA"
               role="button"
               size={100}
               onClick={() => changeLanguage("ar")}
@@ -230,10 +230,10 @@ function Home() {
           {" "}
           <Link to="/Home">
             <Flag
-              country="PT"
+              country="PH"
               role="button"
               size={100}
-              onClick={() => changeLanguage("pt")}
+              onClick={() => changeLanguage("tl")}
             />
           </Link>
         </div>
@@ -241,10 +241,10 @@ function Home() {
           {" "}
           <Link to="/Home">
             <Flag
-              country="FI"
+              country="RU"
               role="button"
               size={100}
-              onClick={() => changeLanguage("fi")}
+              onClick={() => changeLanguage("ru")}
             />
           </Link>
         </div>
@@ -252,10 +252,45 @@ function Home() {
           {" "}
           <Link to="/Home">
             <Flag
-              country="PL"
+              country="MM"
               role="button"
               size={100}
-              onClick={() => changeLanguage("pl")}
+              onClick={() => changeLanguage("mm")}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="FR"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("fr")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="DE"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("de")}
+            />
+          </Link>
+        </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="SE"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("sv")}
             />
           </Link>
         </div>
