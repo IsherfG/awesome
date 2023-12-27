@@ -307,6 +307,17 @@ function Home() {
             />
           </Link>
         </div>
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="HU"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("hu")}
+            />
+          </Link>
+        </div>
       </div>
     </div>
   );
