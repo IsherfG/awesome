@@ -339,7 +339,7 @@ function Home() {
               country="GB-SCT"
               role="button"
               size={100}
-              onClick={() => changeLanguage("en")}
+              onClick={() => changeLanguage("gb-sct")}
             />
           </Link>
         </div>
