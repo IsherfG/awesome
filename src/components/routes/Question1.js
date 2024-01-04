@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import "../styles/global.css";
@@ -29,6 +29,10 @@ function Question() {
  const [data14, setData14] = useState(0); 
  const [data15, setData15] = useState(0); 
  
+ useEffect(() => {
+  // Scroll to the top when the component mounts
+  window.scrollTo(0, 0);
+}, []);
 
   return (
     <div className="index_containerQ">

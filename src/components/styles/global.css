@@ -46,6 +46,14 @@
     border: 1px ; /* Add border styling if needed */
     margin-right: 10px; /* Adjust as needed for spacing */
 }
+.Flag2 img {
+  width: 100px; /* Adjust width as needed */
+  height: 70px; /* Maintain aspect ratio */
+  cursor: pointer;
+  border: 1px ; /* Add border styling if needed */
+  margin-right: 20px; /* Adjust as needed for spacing */
+  margin-top: 10px;
+}
 
 .index_container{
     max-width: 360px;

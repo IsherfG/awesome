@@ -5,6 +5,9 @@ import i18n from "../localization/i18n";
 import { useTranslation } from "react-i18next";
 import Flag from "react-flagkit";
 import ENG from '../assets/Eng.png';
+import Basque from '../assets/Basque.jpg'
+import Malayalam from '../assets/Malayalam.jpg'
+import Tamil from '../assets/Tamil.jpg'
 
 function Home() {
   const { t } = useTranslation();
@@ -343,7 +346,137 @@ function Home() {
             />
           </Link>
         </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="IE"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ga")}
+            />
+          </Link>
+        </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="GR"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("el")}
+            />
+          </Link>
+        </div>
         
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="NP"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ne")}
+            />
+          </Link>
+        </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="AM"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("hy")}
+            />
+          </Link>
+        </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="IN"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("hi")}
+            />
+          </Link>
+        </div>
+        
+      </div>
+      <div className="container">
+        <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="EE"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("et")}
+            />
+          </Link>
+        </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="LT"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("lt")}
+            />
+          </Link>
+        </div>
+                <div className="Flag">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="LK"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("si")}
+            />
+          </Link>
+        </div>
+        
+      </div>
+
+      <div className="containerEN">
+        <div className="Flag2">
+          {" "}
+          <Link to="/Home">
+          <img
+          src={Basque}
+          alt="English Flag"
+          style={{ width: 100, cursor: "pointer" }}
+          onClick={() => changeLanguage("baq")}
+        />
+          </Link>
+        </div>
+        <div className="Flag2">
+          {" "}
+          <Link to="/Home">
+          <img
+          src={Malayalam}
+          alt="English Flag"
+          style={{ width: 100, cursor: "pointer" }}
+          onClick={() => changeLanguage("ml")}
+        />
+          </Link>
+        </div>
+        <div className="Flag2">
+          {" "}
+          <Link to="/Home">
+          <img
+          src={Tamil}
+          alt="English Flag"
+          style={{ width: 100, cursor: "pointer" }}
+          onClick={() => changeLanguage("ta")}
+        />
+          </Link>
+        </div>
       </div>
     </div>
   );
