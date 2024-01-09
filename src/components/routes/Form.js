@@ -489,12 +489,24 @@ function Home() {
           src={Cata}
           alt="English Flag"
           style={{ width: 100, cursor: "pointer" }}
-          onClick={() => changeLanguage("baq")}
+          onClick={() => changeLanguage("cata")}
         />
+          </Link>
+        </div>
+        <div className="Flag2">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="MY"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("ms")}
+            />
           </Link>
         </div>
 
       </div>
+
     </div>
   );
 }

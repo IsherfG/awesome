@@ -1,0 +1,25 @@
+[debug] [2024-01-09T21:05:36.962Z] ----------------------------------------------------------------------
+[debug] [2024-01-09T21:05:36.964Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-01-09T21:05:36.965Z] CLI Version:   13.0.1
+[debug] [2024-01-09T21:05:36.965Z] Platform:      win32
+[debug] [2024-01-09T21:05:36.965Z] Node Version:  v18.12.1
+[debug] [2024-01-09T21:05:36.966Z] Time:          Wed Jan 10 2024 03:35:36 GMT+0630 (Myanmar Time)
+[debug] [2024-01-09T21:05:36.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-09T21:05:37.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-09T21:05:37.060Z] > authorizing via signed-in user (linpaing111@gmail.com)
+[debug] [2024-01-09T21:05:37.060Z] [iam] checking project awesome-fe68d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-09T21:05:37.063Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/awesome-fe68d:testIamPermissions [none]
+[debug] [2024-01-09T21:05:37.063Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/awesome-fe68d:testIamPermissions x-goog-quota-user=projects/awesome-fe68d
+[debug] [2024-01-09T21:05:37.063Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/awesome-fe68d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-09T21:05:38.240Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/awesome-fe68d:testIamPermissions 200
+[debug] [2024-01-09T21:05:38.240Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/awesome-fe68d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-09T21:05:38.242Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/awesome-fe68d [none]
+[debug] [2024-01-09T21:05:38.852Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/awesome-fe68d 200
+[debug] [2024-01-09T21:05:38.852Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/awesome-fe68d {"projectId":"awesome-fe68d","projectNumber":"605255706805","displayName":"awesome","name":"projects/awesome-fe68d","resources":{"hostingSite":"awesome-fe68d"},"state":"ACTIVE","etag":"1_7306ca25-3733-464d-860c-e7acc219fe0e"}
+[info] 
+[info] === Deploying to 'awesome-fe68d'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-01-09T21:05:38.861Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/awesome-fe68d/versions [none]
+[debug] [2024-01-09T21:05:38.861Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/awesome-fe68d/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
