@@ -6,7 +6,6 @@ function Admin () {
   return(
     <div>
       <h1>awd</h1>
-      <h1>awd</h1>
     </div>
   )
 }
