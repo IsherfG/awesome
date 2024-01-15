@@ -11,6 +11,7 @@ import Question6 from './components/routes/Question6.js'
 
 import End from './components/routes/End.js'
 import Form from './components/routes/Form.js'
+import Admin from './components/routes/Admin.js'
 
 import './App.css';
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='Question5' element= {<Question5/>}></Route>
         <Route path='Question6' element= {<Question6/>}></Route>
         <Route path='End' element= {<End/>}></Route>
+        <Route path='Admin' element= {<Admin/>}></Route>
       </Routes>
     </div>
     </div>
