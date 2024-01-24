@@ -11,7 +11,7 @@ import Question6 from './components/routes/Question6.js'
 
 import End from './components/routes/End.js'
 import Form from './components/routes/Form.js'
-import Admin from './components/routes/Admin.js'
+import Admin from './components/routes/Dashboard/Admin.js'
 
 import './App.css';
 

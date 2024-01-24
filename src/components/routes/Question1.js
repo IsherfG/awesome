@@ -13,6 +13,8 @@ function Question() {
   };
 
   useEffect(() => {
+
+ 
     // Scroll to the top when the component mounts
     window.scrollTo(0, 0);
   }, []);
@@ -34,6 +36,7 @@ function Question() {
               const newData = [...data];
               newData[index] = e.target.value;
               setData(newData);
+              console.log("Initial Data:", data);
             }}
             defaultValue={0}
             step={0.25}
