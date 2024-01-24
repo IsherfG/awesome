@@ -10,6 +10,7 @@ import Malayalam from '../assets/Malayalam.jpg'
 import Tamil from '../assets/Tamil.jpg'
 import Cata from '../assets/Cataluna.jpg'
 import Scot from '../assets/Scot.jpg'
+import Swit from '../assets/Swit.png'
 
 function Home() {
   const { t } = useTranslation();
@@ -485,7 +486,7 @@ function Home() {
         <div className="Flag2">
           {" "}
           <Link to="/Home">
-          <img
+          <imgcms
           src={Cata}
           alt="English Flag"
           style={{ width: 100, cursor: "pointer" }}
@@ -502,6 +503,28 @@ function Home() {
               size={100}
               onClick={() => changeLanguage("ms")}
             />
+          </Link>
+        </div>
+                <div className="Flag2">
+          {" "}
+          <Link to="/Home">
+            <Flag
+              country="HR"
+              role="button"
+              size={100}
+              onClick={() => changeLanguage("hr")}
+            />
+          </Link>
+        </div>
+        <div className="Flag3">
+          {" "}
+          <Link to="/Home">
+          <img
+          src={Swit}
+          alt="English Flag"
+          style={{ width: 100, cursor: "pointer" }}
+          onClick={() => changeLanguage("en")}
+        />
           </Link>
         </div>
 

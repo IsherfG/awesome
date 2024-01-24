@@ -54,6 +54,14 @@
   margin-right: 20px; /* Adjust as needed for spacing */
   margin-top: 10px;
 }
+.Flag3 img {
+  width: 50px; /* Adjust width as needed */
+  height: 100px; /* Maintain aspect ratio */
+  cursor: pointer;
+  border: 1px ; /* Add border styling if needed */
+  margin-right: 20px; /* Adjust as needed for spacing */
+  margin-top: 10px;
+}
 
 .index_container{
     max-width: 360px;
